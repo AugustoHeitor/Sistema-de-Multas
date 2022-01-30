@@ -1,0 +1,81 @@
+body{
+    background-image: url(fundo.png);
+    user-select: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 24vw;
+    padding: 1vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 16vw auto 0 auto;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+input{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 0.2vw;
+    width: 6vw;
+    padding: 0.5vw;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+p{
+    font-size: 0.9vw;
+}
+
+#res{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px){ 
+    h1{
+        font-size: 4vw;
+    }
+    
+    div{
+        width: 68vw;
+        padding: 1vw;
+        font-size: 3vw;
+    }
+    
+    input{
+        border-radius: 0.2vw;
+        width: 15vw;
+        padding: 0.5vw;
+        font-size: 3vw;
+    }
+    
+    p{
+        font-size: 3vw;
+    }
+
+    #res{
+        height: 10vw;
+    }
+    
+}
+
+@media screen and (max-width:368px){ 
+    h1{
+        font-size: 4vw;
+    }
+    
+    div{
+        width: 70vw;
+    }  
+}
